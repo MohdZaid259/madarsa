@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --beige-50: #f8f6f1;
+  --beige-100: #f0ece0;
+  --beige-200: #e6dfd0;
+  --green-600: #2c6e49;
+  --green-700: #235c3c;
+  --green-800: #1a4a2e;
+}
+
+@layer base {
+  body {
+    @apply bg-beige-50 text-gray-800;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-amiri font-bold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  p,
+  li,
+  a {
+    @apply font-lato text-lg;
+  }
+
+  /* Hide Google Translate widget */
+  .skiptranslate {
+    display: none !important;
+  }
+
+  /* Prevent Google Translate banner */
+  body {
+    top: 0 !important;
+  }
+
+  /* Ensure Arabic text doesn't get translated */
+  .notranslate {
+    white-space: nowrap;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 py-8 max-w-5xl;
+  }
+
+  .btn-primary {
+    @apply bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-md text-xl transition-colors duration-200 inline-block;
+  }
+
+  .btn-secondary {
+    @apply bg-beige-200 hover:bg-beige-100 text-green-800 font-bold py-3 px-6 rounded-md text-xl transition-colors duration-200 inline-block;
+  }
+
+  .nav-link {
+    @apply text-xl py-2 px-4 hover:bg-beige-100 rounded-md transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-amiri font-bold text-green-700 mb-6 text-center;
+  }
+
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-sm border border-beige-200;
+  }
+}
+
