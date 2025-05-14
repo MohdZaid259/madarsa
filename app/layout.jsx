@@ -2,7 +2,6 @@ import { Amiri, Lato } from "next/font/google"
 import "./globals.css"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import Script from "next/script"
 
 const amiri = Amiri({
   subsets: ["arabic", "latin"],
@@ -90,38 +89,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-
-        {/* Google Translate Script */}
-        <Script
-          src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-          strategy="afterInteractive"
-        />
-        <Script id="google-translate-init" strategy="afterInteractive">
-          {`
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                includedLanguages: 'hi,ur,en',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                autoDisplay: false
-              }, 'google_translate_element');
-              
-              // Set default language to Hindi after a short delay
-              setTimeout(() => {
-                const selectElement = document.querySelector('.goog-te-combo');
-                if (selectElement) {
-                  selectElement.value = 'hi';
-                  selectElement.dispatchEvent(new Event('change'));
-                }
-              }, 1000);
-            }
-          `}
-        </Script>
       </body>
     </html>
   )
 }
-
-
-
-import './globals.css'
