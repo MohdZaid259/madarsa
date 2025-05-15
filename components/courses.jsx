@@ -11,7 +11,7 @@ export default function CoursesPage() {
         />
       </Head>
 
-      <div className="px-24 py-6 space-y-6">
+      <div className="md:px-24 px-4 py-6 space-y-6">
         <h1 className="text-center text-green-700 ">Courses & Curriculum</h1>
 
         <p className="text-xl  max-w-3xl mx-auto text-center">
@@ -38,7 +38,7 @@ export default function CoursesPage() {
               </span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-y-4 border-x-0 border-red-500">
                 <h3 className="text-green-700 mb-2">
                   Quran Memorization (Hifz){" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -56,7 +56,7 @@ export default function CoursesPage() {
                 </ul>
               </div>
 
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-y-4 border-x-0 border-blue-500">
                 <h3 className="text-green-700 mb-2">
                   Tajweed (Rules of Recitation){" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -72,7 +72,7 @@ export default function CoursesPage() {
                 </ul>
               </div>
 
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-y-4 border-x-0 border-green-500">
                 <h3 className="text-green-700 mb-2">
                   Tafsir (Quranic Interpretation){" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -99,7 +99,7 @@ export default function CoursesPage() {
               </span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-x-4 border-y-0 border-yellow-500">
                 <h3 className="text-green-700 mb-2">
                   Hadith Studies{" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -115,7 +115,7 @@ export default function CoursesPage() {
                 </ul>
               </div>
 
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-x-4 border-y-0 border-pink-500">
                 <h3 className="text-green-700 mb-2">
                   Fiqh (Islamic Jurisprudence){" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -131,7 +131,7 @@ export default function CoursesPage() {
                 </ul>
               </div>
 
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-x-4 border-y-0 border-purple-500">
                 <h3 className="text-green-700 mb-2">
                   Aqeedah (Islamic Creed){" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -147,7 +147,7 @@ export default function CoursesPage() {
                 </ul>
               </div>
 
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-x-4 border-y-0 border-emerald-500">
                 <h3 className="text-green-700 mb-2">
                   Seerah (Prophetic Biography){" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -174,7 +174,7 @@ export default function CoursesPage() {
               </span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-y-4 border-x-0 border-orange-500">
                 <h3 className="text-green-700 mb-2">
                   Arabic Grammar (Nahw){" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -190,7 +190,7 @@ export default function CoursesPage() {
                 </ul>
               </div>
 
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-y-4 border-x-0 border-blue-500">
                 <h3 className="text-green-700 mb-2">
                   Arabic Morphology (Sarf){" "}
                   <span dir="rtl" className="font-amiri notranslate">
@@ -206,7 +206,7 @@ export default function CoursesPage() {
                 </ul>
               </div>
 
-              <div className="card rounded-xl">
+              <div className="card shadow-lg rounded-xl border-y-4 border-x-0 border-yellow-500">
                 <h3 className="text-green-700 mb-2">
                   Conversational Arabic{" "}
                   <span dir="rtl" className="font-amiri notranslate">

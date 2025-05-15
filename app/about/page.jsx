@@ -14,7 +14,7 @@ export default function AboutPage() {
         />
       </Head>
 
-      <div className="container-custom my-8">
+      <div className="container-custom my-0 md:my-8 ">
         <h1 className="text-center text-green-700 mb-8">About Our Madrasa</h1>
 
         <QuoteCard
@@ -101,28 +101,28 @@ export default function AboutPage() {
         <div>
           <h2 className="text-green-700 mb-4">Our Facilities</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="card">
+            <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-pink-500">
               <h3 className="text-green-700 mb-3">Learning Spaces</h3>
               <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
                 قاعات الدراسة
               </p>
               <p>Spacious, well-lit classrooms equipped with comfortable seating and educational materials.</p>
             </div>
-            <div className="card">
+            <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">
               <h3 className="text-green-700 mb-3">Library</h3>
               <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
                 المكتبة
               </p>
               <p>A collection of Islamic books, references, and resources for research and self-study.</p>
             </div>
-            <div className="card">
+            <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-emerald-500">
               <h3 className="text-green-700 mb-3">Prayer Hall</h3>
               <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
                 قاعة الصلاة
               </p>
               <p>A dedicated space for congregational prayers and spiritual activities.</p>
             </div>
-            <div className="card">
+            <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-yellow-500">
               <h3 className="text-green-700 mb-3">Outdoor Area</h3>
               <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
                 المساحة الخارجية

@@ -53,7 +53,7 @@ export default function GalleryPage() {
   ]
 
   return (
-    <div className="px-24 py-8 pt-0">
+    <div className="md:px-24 px-4 py-8 pt-0">
       <h1 className="text-center text-green-700 mb-8">Gallery</h1>
 
       <p className="text-xl mb-8 max-w-3xl mx-auto text-center">
@@ -62,9 +62,9 @@ export default function GalleryPage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {galleryImages.map((image, index) => (
-          <div key={index} className="border border-green-500 rounded-xl overflow-hidden">
+          <div key={index} className="border border-green-500 rounded-xl rounded-t-none overflow-hidden">
             <div className="relative rounded-xl h-64 w-full">
-              <Image src={image.src || "/placeholder.svg"} alt={image.alt} fill className="rounded-xl rounded-b-none object-cover" />
+              <Image src={image.src || "/placeholder.svg"} alt={image.alt} fill className="rounded-xl rounded-t-none rounded-b-none object-cover" />
             </div>
             <h3 className="text-green-700 text-center py-3">{image.title}</h3>
           </div>

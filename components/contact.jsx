@@ -41,12 +41,12 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="py-12 px-24 bg-beige-100">
+    <div className="py-12 md:px-24 px-4 bg-beige-100">
       <h1 className="text-center text-green-700 mb-8">Contact Us</h1>
 
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="card rounded-xl p-4">
+          <div className="card rounded-xl rounded-t-none border-t-4 border-x-0 border-b-0 border-blue-500 p-4">
             <h2 className="text-green-700 mb-2">Get in Touch</h2>
             <p className="mb-6">
               We welcome your inquiries and are happy to assist you with any questions about our madrasa, programs, or
@@ -83,7 +83,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="card rounded-xl">
+          <div className="card rounded-xl rounded-t-none border-t-4 border-x-0 border-b-0 border-pink-500">
             <h2 className="text-green-700 mb-2">Visit Us</h2>
             <p className="mb-4">We welcome visitors during our open hours. Please call ahead to schedule a tour.</p>
             <div className="bg-beige-50 p-4 rounded-xl">

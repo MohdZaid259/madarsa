@@ -16,8 +16,8 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-sm">
-      <div className="container mx-auto px-8 py-3">
+    <header className="bg-white">
+      <div className="container border-b mx-auto px-8 py-3">
         <div className="flex justify-between items-center">
           <div className="flex justify-center items-end gap-4">
           <img src={mosque.src} className="w-12 aspect-square" alt="logo" />
@@ -45,15 +45,17 @@ export default function Navbar() {
         </div>
 
         {/* Mobile navigation */}
-        {isMenuOpen && (
-          <nav className="md:hidden mt-4 flex flex-col space-y-2">
-            {navLinks.map((link) => (
-              <Link key={link.name} href={link.href} className="nav-link block rounded-xl hover:underline" onClick={() => setIsMenuOpen(false)}>
-                {link.name}
-              </Link>
-            ))}
-          </nav>
-        )}
+        <nav
+          className={`md:hidden mt-4 flex flex-col space-y-2 overflow-hidden transition-[max-height] duration-500 ease-in-out ${
+            isMenuOpen ? "max-h-screen" : "max-h-0"
+          }`}
+        >
+          {navLinks.map((link) => (
+            <Link key={link.name} href={link.href} className="nav-link block rounded-xl hover:underline" onClick={() => setIsMenuOpen(false)}>
+              {link.name}
+            </Link>
+          ))}
+        </nav>
       </div>
     </header>
   )

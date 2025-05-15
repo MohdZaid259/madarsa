@@ -1,6 +1,6 @@
 export default function FacultyPage() {
   return (
-    <div className="py-8 px-24 my-8">
+    <div className="py-8 px-4 md:px-24 my-0 md:my-8">
       <h1 className="text-center text-green-700 mb-8">Faculty & Staff</h1>
 
       <p className="text-xl mb-8 max-w-3xl mx-auto text-center">
@@ -12,7 +12,7 @@ export default function FacultyPage() {
       <section className="mb-12">
         <h2 className="section-title">Administration</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-red-500">
             <h3 className="text-green-700 mb-2">Ustadha Aisha Rahman</h3>
             <p className="font-bold mb-1">Principal</p>
             <p className="mb-2">M.A. Islamic Studies, Al-Azhar University</p>
@@ -22,7 +22,7 @@ export default function FacultyPage() {
             </p>
           </div>
 
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">
             <h3 className="text-green-700 mb-2">Ustadha Fatima Malik</h3>
             <p className="font-bold mb-1">Vice Principal</p>
             <p className="mb-2">B.A. Islamic Education, International Islamic University</p>
@@ -38,7 +38,7 @@ export default function FacultyPage() {
       <section className="mb-12">
         <h2 className="section-title">Teaching Faculty</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-yellow-500">
             <h3 className="text-green-700 mb-2">Ustadha Khadija Omar</h3>
             <p className="font-bold mb-1">Quran & Tajweed Instructor</p>
             <p className="mb-2">Ijazah in Quran Recitation, Certificate in Tajweed</p>
@@ -48,7 +48,7 @@ export default function FacultyPage() {
             </p>
           </div>
 
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-emerald-500">
             <h3 className="text-green-700 mb-2">Ustadha Maryam Hassan</h3>
             <p className="font-bold mb-1">Arabic Language Instructor</p>
             <p className="mb-2">M.A. Arabic Linguistics, Damascus University</p>
@@ -58,7 +58,7 @@ export default function FacultyPage() {
             </p>
           </div>
 
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-pink-500">
             <h3 className="text-green-700 mb-2">Ustadha Zaynab Ali</h3>
             <p className="font-bold mb-1">Fiqh & Islamic Studies Instructor</p>
             <p className="mb-2">B.A. Islamic Law, Medina University</p>
@@ -68,7 +68,7 @@ export default function FacultyPage() {
             </p>
           </div>
 
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-purple-500">
             <h3 className="text-green-700 mb-2">Ustadha Ruqayya Khan</h3>
             <p className="font-bold mb-1">Hadith & Seerah Instructor</p>
             <p className="mb-2">Diploma in Hadith Studies, Dar al-Hadith Institute</p>
@@ -78,7 +78,7 @@ export default function FacultyPage() {
             </p>
           </div>
 
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-orange-500">
             <h3 className="text-green-700 mb-2">Ustadha Safiya Mahmood</h3>
             <p className="font-bold mb-1">Aqeedah & Islamic History Instructor</p>
             <p className="mb-2">B.A. Islamic Theology, Al-Madinah International University</p>
@@ -88,7 +88,7 @@ export default function FacultyPage() {
             </p>
           </div>
 
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">
             <h3 className="text-green-700 mb-2">Ustadha Halima Yusuf</h3>
             <p className="font-bold mb-1">Junior Class Instructor</p>
             <p className="mb-2">Diploma in Islamic Education, Local Islamic Institute</p>
@@ -104,13 +104,13 @@ export default function FacultyPage() {
       <section>
         <h2 className="section-title">Support Staff</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-pink-500">
             <h3 className="text-green-700 mb-2">Sister Amina Patel</h3>
             <p className="font-bold mb-1">Administrative Assistant</p>
             <p>Sister Amina manages the office, handles inquiries, and assists with admissions and record-keeping.</p>
           </div>
 
-          <div className="card rounded-xl">
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-yellow-500">
             <h3 className="text-green-700 mb-2">Sister Noor Begum</h3>
             <p className="font-bold mb-1">Librarian</p>
             <p>

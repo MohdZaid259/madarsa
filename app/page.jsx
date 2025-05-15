@@ -49,24 +49,24 @@ export default function Home() {
 
       {/* Programs Overview */}
       <section className="bg-beige-100 py-8 pt-6 mb-8">
-        <div className="px-32 py-8">
+        <div className="md:px-32 px-4 py-8">
           <h1 className="section-title text-5xl py-4">Our Programs</h1>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="card rounded-xl">
+            <div className="card rounded-xl rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">
               <h3 className="text-green-700 mb-3">Quranic Studies</h3>
               <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
                 دراسات قرآنية
               </p>
               <p>Memorization, recitation, and understanding of the Holy Quran with proper tajweed.</p>
             </div>
-            <div className="card rounded-xl">
+            <div className="card rounded-xl rounded-l-none border-l-4 border-y-0 border-r-0 border-pink-500">
               <h3 className="text-green-700 mb-3">Islamic Sciences</h3>
               <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
                 العلوم الإسلامية
               </p>
               <p>Study of Hadith, Fiqh, Aqeedah, and Islamic history with qualified teachers.</p>
             </div>
-            <div className="card rounded-xl">
+            <div className="card rounded-xl rounded-l-none border-l-4 border-y-0 border-r-0 border-green-500">
               <h3 className="text-green-700 mb-3">Arabic Language</h3>
               <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
                 اللغة العربية

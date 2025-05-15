@@ -1,14 +1,14 @@
 export default function AdmissionPage() {
   return (
-    <div className="container-custom">
-      <h1 className="text-center mt-8 text-green-700 mb-8">Admission Process</h1>
+    <div className="container-custom ">
+      <h1 className="text-center text-green-700 mt-0 md:my-8">Admission Process</h1>
 
       <p className="text-xl mb-8 max-w-3xl mx-auto text-center">
         We welcome dedicated students who are eager to learn and grow in their faith. Follow these simple steps to apply
         for admission to our madrasa.
       </p>
 
-      <div className="card mb-12">
+      <div className="card mb-12 rounded-xl shadow-lg ">
         <h2 className="text-green-700 mb-6">Eligibility Criteria</h2>
         <ul className="list-disc pl-6 space-y-3">
           <li>Age: 10-18 years (exceptions may be considered)</li>
@@ -27,7 +27,7 @@ export default function AdmissionPage() {
             <div className="bg-green-700 text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold flex-shrink-0">
               1
             </div>
-            <div className="card flex-grow">
+            <div className="card flex-grow shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">
               <h3 className="text-green-700 mb-2">Complete Application Form</h3>
               <p className="mb-2">
                 Fill out the application form with all required information about the student and family.
@@ -45,7 +45,7 @@ export default function AdmissionPage() {
             <div className="bg-green-700 text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold flex-shrink-0">
               2
             </div>
-            <div className="card flex-grow">
+            <div className="card flex-grow shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-pink-500">
               <h3 className="text-green-700 mb-2">Submit Required Documents</h3>
               <p className="mb-2">Along with the completed application form, please submit:</p>
               <ul className="list-disc pl-6 space-y-1">
@@ -61,7 +61,7 @@ export default function AdmissionPage() {
             <div className="bg-green-700 text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold flex-shrink-0">
               3
             </div>
-            <div className="card flex-grow">
+            <div className="card flex-grow shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-yellow-500">
               <h3 className="text-green-700 mb-2">Assessment Interview</h3>
               <p className="mb-2">
                 Once your application is received, we will schedule an assessment interview with the student and
@@ -81,7 +81,7 @@ export default function AdmissionPage() {
             <div className="bg-green-700 text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold flex-shrink-0">
               4
             </div>
-            <div className="card flex-grow">
+            <div className="card flex-grow shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-purple-500">
               <h3 className="text-green-700 mb-2">Admission Decision</h3>
               <p className="mb-2">
                 After the interview and assessment, we will notify you of the admission decision within two weeks.
@@ -101,7 +101,7 @@ export default function AdmissionPage() {
             <div className="bg-green-700 text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold flex-shrink-0">
               5
             </div>
-            <div className="card flex-grow">
+            <div className="card flex-grow shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-green-500">
               <h3 className="text-green-700 mb-2">Complete Registration</h3>
               <p className="mb-2">To finalize the admission process, complete the registration by:</p>
               <ul className="list-disc pl-6 space-y-1">
@@ -114,7 +114,7 @@ export default function AdmissionPage() {
         </div>
       </div>
 
-      <div className="card mb-12">
+      <div className="card mb-12 rounded-xl shadow-lg ">
         <h2 className="text-green-700 mb-4">Important Dates</h2>
         <ul className="space-y-3">
           <li>
@@ -138,7 +138,7 @@ export default function AdmissionPage() {
         </ul>
       </div>
 
-      <div className="card mb-12">
+      <div className="card mb-12 rounded-xl shadow-lg ">
         <h2 className="text-green-700 mb-4">Fee Structure</h2>
         <p className="mb-4">
           Our madrasa strives to keep education affordable while maintaining quality. Financial aid is available for
