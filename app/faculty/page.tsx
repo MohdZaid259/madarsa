@@ -1,3 +1,6 @@
+import haji from '@/public/haji.png'
+import mufti from '@/public/mufti.png'
+
 export default function FacultyPage() {
   return (
     <div className="py-8 px-4 md:px-24 my-0 md:my-8">
@@ -12,24 +15,22 @@ export default function FacultyPage() {
       <section className="mb-12">
         <h2 className="section-title">Administration</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-red-500">
-            <h3 className="text-green-700 mb-2">Ustadha Aisha Rahman</h3>
-            <p className="font-bold mb-1">Principal</p>
-            <p className="mb-2">M.A. Islamic Studies, Al-Azhar University</p>
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 relative border-red-500">
+            <h3 className="text-green-700 mb-2">Haji Abdul Qayyum</h3>
+            <p className="font-bold mb-1">Manager</p>
             <p>
-              Ustadha Aisha has over 15 years of experience in Islamic education. She oversees all academic programs and
-              administrative functions of the madrasa.
+              Abdul Qayyum ensures smooth coordination between <br /> staff, students, and administration, and oversees logistics, <br /> maintenance, and support services.
             </p>
+            <img className='w-36 aspect-square rounded absolute top-0 right-0 ring-2 ring-red-500' src={haji.src} alt="img" />
           </div>
 
-          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">
-            <h3 className="text-green-700 mb-2">Ustadha Fatima Malik</h3>
-            <p className="font-bold mb-1">Vice Principal</p>
-            <p className="mb-2">B.A. Islamic Education, International Islamic University</p>
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 relative border-blue-500">
+            <h3 className="text-green-700 mb-2">Mufti Ghulam Moinuddeen</h3>
+            <p className="font-bold mb-1">Principal</p>
             <p>
-              Ustadha Fatima assists the principal in academic planning and student affairs. She has been with our
-              madrasa since its founding.
+              Ghulam Moinuddeen has over 15 years of experience <br /> in Islamic education. She oversees all academic programs <br /> and administrative functions of the madrasa.
             </p>
+            <img className='w-36 aspect-square rounded absolute object-cover top-0 right-0 ring-2 ring-blue-500' src={mufti.src} alt="img" />
           </div>
         </div>
       </section>
@@ -39,63 +40,38 @@ export default function FacultyPage() {
         <h2 className="section-title">Teaching Faculty</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-yellow-500">
-            <h3 className="text-green-700 mb-2">Ustadha Khadija Omar</h3>
-            <p className="font-bold mb-1">Quran & Tajweed Instructor</p>
-            <p className="mb-2">Ijazah in Quran Recitation, Certificate in Tajweed</p>
-            <p>
-              Ustadha Khadija is a certified Quran teacher with ijazah in multiple recitation styles. She leads our
-              Quran memorization program.
-            </p>
+            <h3 className="text-green-700 mb-2">Alima Fazila Aliya khatoon</h3>
+            <p className="font-bold mb-1">Quranic and Arabic Instructor</p>
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-emerald-500">
-            <h3 className="text-green-700 mb-2">Ustadha Maryam Hassan</h3>
-            <p className="font-bold mb-1">Arabic Language Instructor</p>
-            <p className="mb-2">M.A. Arabic Linguistics, Damascus University</p>
-            <p>
-              Ustadha Maryam specializes in teaching Arabic to non-native speakers. She has developed our comprehensive
-              Arabic curriculum.
-            </p>
+            <h3 className="text-green-700 mb-2">Alima Fazila Kaneez Fatima</h3>
+            <p className="font-bold mb-1">Quranic and Arabic Instructor</p>
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-pink-500">
-            <h3 className="text-green-700 mb-2">Ustadha Zaynab Ali</h3>
-            <p className="font-bold mb-1">Fiqh & Islamic Studies Instructor</p>
-            <p className="mb-2">B.A. Islamic Law, Medina University</p>
-            <p>
-              Ustadha Zaynab teaches Islamic jurisprudence and contemporary fiqh issues. She also leads workshops on
-              practical application of Islamic teachings.
-            </p>
+            <h3 className="text-green-700 mb-2">Alima Fazila Ashrafi Sahiba</h3>
+            <p className="font-bold mb-1">Quranic Instructor</p>
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-purple-500">
-            <h3 className="text-green-700 mb-2">Ustadha Ruqayya Khan</h3>
-            <p className="font-bold mb-1">Hadith & Seerah Instructor</p>
-            <p className="mb-2">Diploma in Hadith Studies, Dar al-Hadith Institute</p>
-            <p>
-              Ustadha Ruqayya specializes in teaching hadith sciences and the biography of Prophet Muhammad (peace be
-              upon him).
-            </p>
+            <h3 className="text-green-700 mb-2">Rabiya khatoon</h3>
+            <p className="font-bold mb-1">General Education</p>
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-orange-500">
-            <h3 className="text-green-700 mb-2">Ustadha Safiya Mahmood</h3>
-            <p className="font-bold mb-1">Aqeedah & Islamic History Instructor</p>
-            <p className="mb-2">B.A. Islamic Theology, Al-Madinah International University</p>
-            <p>
-              Ustadha Safiya teaches Islamic creed and history, with a focus on strengthening students' understanding of
-              core Islamic beliefs.
-            </p>
+            <h3 className="text-green-700 mb-2">Naseema Khatoon</h3>
+            <p className="font-bold mb-1">General Education</p>
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">
-            <h3 className="text-green-700 mb-2">Ustadha Halima Yusuf</h3>
-            <p className="font-bold mb-1">Junior Class Instructor</p>
-            <p className="mb-2">Diploma in Islamic Education, Local Islamic Institute</p>
-            <p>
-              Ustadha Halima works with our youngest students, providing a strong foundation in Quran, basic Islamic
-              studies, and Arabic.
-            </p>
+            <h3 className="text-green-700 mb-2">Alima Fazila Kaneez Amina</h3>
+            <p className="font-bold mb-1">Quranic and Arabic Instructor</p>
+          </div>
+
+          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-green-500">
+            <h3 className="text-green-700 mb-2">Alima Fazila Muskan sahiba</h3>
+            <p className="font-bold mb-1">Quranic and Arabic Instructor</p>
           </div>
         </div>
       </section>
@@ -105,18 +81,9 @@ export default function FacultyPage() {
         <h2 className="section-title">Support Staff</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-pink-500">
-            <h3 className="text-green-700 mb-2">Sister Amina Patel</h3>
+            <h3 className="text-green-700 mb-2">Mawlawi Mushtaq</h3>
             <p className="font-bold mb-1">Administrative Assistant</p>
             <p>Sister Amina manages the office, handles inquiries, and assists with admissions and record-keeping.</p>
-          </div>
-
-          <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-yellow-500">
-            <h3 className="text-green-700 mb-2">Sister Noor Begum</h3>
-            <p className="font-bold mb-1">Librarian</p>
-            <p>
-              Sister Noor maintains our library collection and assists students with finding resources for their
-              studies.
-            </p>
           </div>
         </div>
       </section>

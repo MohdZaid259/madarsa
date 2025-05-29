@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-green-700 text-white py-8">
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <h3 className="font-amiri text-2xl mb-4">Girls&apos; Madrasa</h3>
+          <h3 className="font-amiri text-2xl mb-4">Gulshan-e-Rabiya</h3>
           <p className="mb-4">A center for Islamic education and spiritual growth</p>
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-4">
             <Link href="/about" className="hover:underline">
@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="mb-4">
             <p className="notranslate font-amiri text-xl">مدرسة البنات الإسلامية</p>
           </div>
-          <p className="text-sm">© {currentYear} Girls&apos; Madrasa. All rights reserved.</p>
+          <p className="text-sm">© {currentYear} Kulliyatul Banat Gulshan-e-Rabiya. All rights reserved.</p>
         </div>
       </div>
     </footer>

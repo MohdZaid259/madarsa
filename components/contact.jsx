@@ -1,44 +1,8 @@
 "use client"
 
-import { useState } from "react"
-import { Phone, Mail, MapPin, Send } from "lucide-react"
+import { Phone, Mail, MapPin } from "lucide-react"
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
-  })
-
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitMessage, setSubmitMessage] = useState("")
-
-  const handleChange = (e) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }))
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-
-    setTimeout(() => {
-      setIsSubmitting(false)
-      setSubmitMessage("Thank you for your message. We will get back to you soon.")
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
-      })
-    }, 1500)
-  }
 
   return (
     <div className="py-12 md:px-24 px-4 bg-beige-100">
@@ -58,8 +22,8 @@ export default function ContactPage() {
                 <Phone className="text-green-700 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-bold">Phone</h3>
-                  <p>+1 (555) 123-4567</p>
-                  <p className="text-sm text-muted-foreground">Monday to Friday, 9:00 AM - 5:00 PM</p>
+                  <p>+91 98383 55024</p>
+                  <p className="text-sm text-muted-foreground">10:00 AM - 4:00 PM</p>
                 </div>
               </div>
 
@@ -67,7 +31,7 @@ export default function ContactPage() {
                 <Mail className="text-green-700 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-bold">Email</h3>
-                  <p>info@girlsmadrasa.org</p>
+                  <p>info@gulshanerabiya.org</p>
                   <p className="text-sm text-muted-foreground">We aim to respond within 24 hours</p>
                 </div>
               </div>
@@ -76,8 +40,8 @@ export default function ContactPage() {
                 <MapPin className="text-green-700 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-bold">Address</h3>
-                  <p>123 Islamic Education Street</p>
-                  <p>Rural Town, State 12345</p>
+                  <p>Taton muraini, Lambhuwa</p>
+                  <p>Sultanpur, 228001</p>
                 </div>
               </div>
             </div>
@@ -90,13 +54,10 @@ export default function ContactPage() {
               <h3 className="font-bold mb-2">Open Hours</h3>
               <ul className="space-y-1">
                 <li>
-                  <strong>Monday - Thursday:</strong> 8:00 AM - 4:00 PM
+                  <strong>Saturday - Thursday:</strong> 7:30 AM - 12:30 PM
                 </li>
                 <li>
-                  <strong>Friday:</strong> 8:00 AM - 12:00 PM
-                </li>
-                <li>
-                  <strong>Saturday:</strong> 9:00 AM - 2:00 PM (Administrative office only)
+                  <strong>Office Hours:</strong> 10:00 AM - 4:00 PM
                 </li>
                 <li>
                   <strong>Sunday:</strong> Closed

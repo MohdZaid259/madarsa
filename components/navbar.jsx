@@ -17,12 +17,12 @@ export default function Navbar() {
 
   return (
     <header className="bg-white">
-      <div className="container border-b mx-auto px-8 py-3">
+      <div className="container border-b mx-auto px-8 py-2">
         <div className="flex justify-between items-center">
           <div className="flex justify-center items-end gap-4">
           <img src={mosque.src} className="w-12 aspect-square" alt="logo" />
           <Link href="/" className="font-amiri text-3xl font-bold text-green-700">
-            Girls&apos; Madrasa
+            Gulshan-e-Rabiya
           </Link>
           </div>
 

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Girls' Madrasa - Islamic Education for Young Women</title>
+        <title>Gulshan e Rabiya - Islamic Education for Young Women</title>
         <meta
           name="description"
           content="A center for Islamic education providing quality Quranic studies, Arabic language, and Islamic sciences for girls in a nurturing environment."
@@ -20,7 +20,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-beige-100 py-12 md:py-[88px]">
         <div className="container-custom text-center">
-          <h1 className="text-green-700 mb-6">Welcome to Girls&apos; Madrasa</h1>
+          <h1 className="text-green-700 mb-6"><span className="text-gray-800">Welcome to </span><br /> Kulliyat-ul-Banat Gulshan-e-Rabiya</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8">
             A place of learning, spirituality, and growth for young Muslim women
           </p>
@@ -51,7 +51,7 @@ export default function Home() {
       <section className="bg-beige-100 py-8 pt-6 mb-8">
         <div className="md:px-32 px-4 py-8">
           <h1 className="section-title text-5xl py-4">Our Programs</h1>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <div className="card rounded-xl rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">
               <h3 className="text-green-700 mb-3">Quranic Studies</h3>
               <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
@@ -72,6 +72,13 @@ export default function Home() {
                 اللغة العربية
               </p>
               <p>Comprehensive Arabic language program to understand Islamic texts in their original form.</p>
+            </div>
+            <div className="card rounded-xl rounded-l-none border-l-4 border-y-0 border-r-0 border-yellow-500">
+              <h3 className="text-green-700 mb-3">General Studies (Primary)</h3>
+              <p dir="rtl" className="font-amiri text-xl mb-2 notranslate">
+                الدراسات العامة
+              </p>
+              <p>Basic education in core subjects such as English, Hindi, Mathematics for general Knowledge.</p>
             </div>
           </div>
         </div>
