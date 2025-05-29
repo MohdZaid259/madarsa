@@ -1,3 +1,5 @@
+import {IndianRupee} from 'lucide-react'
+
 export default function AdmissionPage() {
   return (
     <div className="container-custom ">
@@ -8,10 +10,10 @@ export default function AdmissionPage() {
         for admission to our madrasa.
       </p>
 
-      <div className="card mb-12 rounded-xl shadow-lg ">
+      <div className="card mb-12 rounded-xl shadow-lg">
         <h2 className="text-green-700 mb-6">Eligibility Criteria</h2>
-        <ul className="list-disc pl-6 space-y-3">
-          <li>Age: 10-18 years (exceptions may be considered)</li>
+        <ul className="list-disc pl-2 space-y-3">
+          <li>Age: 4-30 years (exceptions may be considered)</li>
           <li>Basic reading and writing skills</li>
           <li>Basic knowledge of Islamic principles</li>
           <li>Commitment to completing the program</li>
@@ -146,19 +148,16 @@ export default function AdmissionPage() {
         </p>
         <ul className="space-y-3">
           <li>
-            <strong>Application Fee:</strong> $20 (non-refundable)
+            <strong>Application Fee:</strong> <IndianRupee className='w-4 inline'/> 1,000 only. <br />(non-refundable)
           </li>
           <li>
-            <strong>Registration Fee:</strong> $50 (annual, one-time)
+            <strong>Registration Fee:</strong> <IndianRupee className='w-4 inline'/> 12,000 only. <br />(annual, one-time)
           </li>
           <li>
-            <strong>Tuition Fee:</strong> $100 per month
-          </li>
-          <li>
-            <strong>Books and Materials:</strong> $75 per year
+            <strong>Tuition Fee:</strong> <IndianRupee className='w-4 inline'/> 1,000rs per month only.
           </li>
         </ul>
-        <p className="mt-4 text-green-700 font-bold">
+        <p className="mt-4 text-green-700 text-base font-bold">
           Note: No student will be denied education due to financial constraints. Please contact us to discuss financial
           aid options.
         </p>

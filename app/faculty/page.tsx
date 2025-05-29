@@ -16,21 +16,29 @@ export default function FacultyPage() {
         <h2 className="section-title">Administration</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 relative border-red-500">
-            <h3 className="text-green-700 mb-2">Haji Abdul Qayyum</h3>
+            <h3 className="text-green-700 mb-2">Haji Abdul Qayyum Sahab</h3>
             <p className="font-bold mb-1">Manager</p>
-            <p>
+            <p className='md:block hidden'>
               Abdul Qayyum ensures smooth coordination between <br /> staff, students, and administration, and oversees logistics, <br /> maintenance, and support services.
             </p>
-            <img className='w-36 aspect-square rounded absolute top-0 right-0 ring-2 ring-red-500' src={haji.src} alt="img" />
+            <p className='block md:hidden'>
+              Abdul Qayyum Sahab <br /> ensures the smooth <br /> coordination between staff, <br />students, and administration, and logistics, maintenance, and support services.
+            </p>
+            <img className='w-36 hidden md:block aspect-square rounded absolute top-0 right-0 ring-2 ring-red-500' src={haji.src} alt="img" />
+            <img className='w-24 block md:hidden aspect-square rounded-full absolute top-16 right-0 ring-2 ring-red-200' src={haji.src} alt="img" />
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 relative border-blue-500">
             <h3 className="text-green-700 mb-2">Mufti Ghulam Moinuddeen</h3>
             <p className="font-bold mb-1">Principal</p>
-            <p>
-              Ghulam Moinuddeen has over 15 years of experience <br /> in Islamic education. She oversees all academic programs <br /> and administrative functions of the madrasa.
+            <p className='md:block hidden'>
+              Ghulam Moinuddeen Sahab has over 15 years of experience <br /> in Islamic education. He oversees all academic programs <br /> and administrative functions of the madrasa.
             </p>
-            <img className='w-36 aspect-square rounded absolute object-cover top-0 right-0 ring-2 ring-blue-500' src={mufti.src} alt="img" />
+            <p className='block md:hidden'>
+              Ghulam Moinuddeen <br />has over 15 years of <br /> experience in Islamic education. <br />He oversees all academic programs and administrative functions of the madrasa.
+            </p>
+            <img className='w-36 hidden md:block aspect-square rounded absolute object-cover top-0 right-0 ring-2 ring-blue-500' src={mufti.src} alt="img" />
+            <img className='w-24 block md:hidden aspect-square rounded-full absolute top-16 right-0 ring-2 object-cover' src={mufti.src} alt="img" />
           </div>
         </div>
       </section>
@@ -38,7 +46,7 @@ export default function FacultyPage() {
       {/* Teaching Faculty */}
       <section className="mb-12">
         <h2 className="section-title">Teaching Faculty</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-yellow-500">
             <h3 className="text-green-700 mb-2">Alima Fazila Aliya khatoon</h3>
             <p className="font-bold mb-1">Quranic and Arabic Instructor</p>
@@ -55,13 +63,13 @@ export default function FacultyPage() {
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-purple-500">
-            <h3 className="text-green-700 mb-2">Rabiya khatoon</h3>
-            <p className="font-bold mb-1">General Education</p>
+            <h3 className="text-green-700 mb-2">Rabiya khatoon Sahiba</h3>
+            <p className="font-bold mb-1">General Studies</p>
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-orange-500">
-            <h3 className="text-green-700 mb-2">Naseema Khatoon</h3>
-            <p className="font-bold mb-1">General Education</p>
+            <h3 className="text-green-700 mb-2">Naseema Khatoon Sahiba</h3>
+            <p className="font-bold mb-1">General Studies</p>
           </div>
 
           <div className="card rounded-xl shadow-lg rounded-l-none border-l-4 border-y-0 border-r-0 border-blue-500">

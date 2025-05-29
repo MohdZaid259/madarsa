@@ -24,8 +24,8 @@ export default function Home() {
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8">
             A place of learning, spirituality, and growth for young Muslim women
           </p>
-          <p dir="rtl" className="font-amiri text-2xl md:text-3xl mb-8 max-w-3xl mx-auto notranslate">
-            مدرسة البنات - مكان للتعلم والروحانية والنمو للشابات المسلمات
+          <p dir="rtl" className="font-amiri text-xl md:text-3xl mb-8 mx-auto notranslate">
+            مدرسة البنات - <br /> مكان للتعلم والروحانية والنمو للشابات المسلمات
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <Link href="/admission" className="btn-primary rounded-xl">
@@ -93,9 +93,6 @@ export default function Home() {
         <p className="max-w-3xl mx-auto mb-4 text-xl">
           We welcome dedicated students who are eager to learn and grow in their faith. Applications for the new
           academic year are now open.
-        </p>
-        <p dir="rtl" className="font-amiri text-2xl max-w-3xl mx-auto mb-8 notranslate">
-          نرحب بالطالبات المتفانيات اللواتي يتطلعن إلى التعلم والنمو في إيمانهن
         </p>
       </section>
 

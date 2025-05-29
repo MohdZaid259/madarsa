@@ -18,7 +18,6 @@ export default function AboutPage() {
         <h1 className="text-center text-green-700 mb-8">About Our Madrasa</h1>
 
         <QuoteCard
-          arabicText="مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ طَرِيقًا إِلَى الْجَنَّةِ"
           text="Whoever takes a path in search of knowledge, Allah makes the path to Paradise easy for him."
           source="Sahih Muslim"
         />
@@ -67,19 +66,15 @@ export default function AboutPage() {
 
         <div className="mb-12">
           <h2 className="text-green-700 mb-4">Our Vision</h2>
-          <p dir="rtl" className="font-amiri text-xl mb-4 notranslate">
-            أن نكون مركزًا للتميز في التعليم الإسلامي للفتيات، معروفًا بتخريج طالبات يجسدن القيم الإسلامية، ويظهرن شخصية
-            قوية، ويخدمن كقدوة إيجابية في المجتمع
-          </p>
           <p>
             To be a center of excellence in Islamic education for girls, recognized for producing graduates who embody
             Islamic values, demonstrate strong character, and serve as positive role models in society.
           </p>
         </div>
 
-        <div className="card mb-12">
-          <h2 className="text-green-700 mb-4">Our Values</h2>
-          <ul className="list-disc pl-6 space-y-2">
+        <div className="card mb-12 p-2">
+          <h2 className="text-green-700 mb-4 ml-2">Our Values</h2>
+          <ul className="list-none pl-2 space-y-2">
             <li>
               <strong>Excellence in Education:</strong> Commitment to high standards in teaching and learning
             </li>

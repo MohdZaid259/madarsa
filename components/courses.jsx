@@ -21,7 +21,7 @@ export default function CoursesPage() {
 
         <div className="p-6 bg-beige-50 rounded-lg border border-beige-200  max-w-3xl mx-auto">
           <p dir="rtl" className="font-amiri text-xl text-center leading-relaxed notranslate">
-            قال رسول الله صلى الله عليه وسلم: "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ"
+            قال رسول الله صلى الله عليه وسلم: <br /> "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ"
           </p>
           <p className="mt-2 italic text-center">
             "The best among you are those who learn the Quran and teach it." - Sahih Al-Bukhari
